@@ -216,5 +216,24 @@ public class Main{
 //            new_arr_num[j++]=num[i];
 //        }
 //        System.out.println(Arrays.toString(new_arr_num));
+
+        //13. Дана строка с буквами и цифрами:
+        //String str = 'a1b2c345';
+        //Проверьте, что в этой строке не более трех букв.
+//        String str = "a1b2c345";
+//        int count_letter = 0;
+//        for(int i=0;i<str.length();i++){
+//            char symbol = str.charAt(i);
+//            if(Character.isLetter(symbol)){
+//                count_letter++;
+//            }
+//        }
+//        if(count_letter<=3){
+//            System.out.println("The line has less than 3 letters or equals 3");
+//        }
+//        else{
+//            System.out.println("The line has more than 3 letters");
+//        }
+
     }
 }
