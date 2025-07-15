@@ -185,5 +185,36 @@ public class Main{
 //            date_to_str+=" ";
 //        }
 //        System.out.println(date_to_str);
+
+        //12. Дан массив:
+        //int[] {1, 2, 3}
+        //Создайте новый массив так, чтобы в нем каждый элемент первого массива повторился два раза:
+        //int[] {1, 1, 2, 2, 3, 3}
+
+//        int[] num = {1,2,3};
+//        int[] new_arr_num = new int[num.length*2];
+
+        //Version 1
+//        for(int i=0;i<new_arr_num.length;i++){
+//            if(i>0 && i<3){
+//                new_arr_num[i]=num[i-1];
+//            } else if(i>2 && i<5){
+//                new_arr_num[i]=num[i-2];
+//            } else if(i==new_arr_num.length-1){
+//                new_arr_num[i]=num[i-3];
+//            }
+//            else{
+//                new_arr_num[i]=num[i];
+//            }
+//        }
+//        System.out.println(Arrays.toString(new_arr_num));
+
+        //Version 2
+//        int j=0;
+//        for(int i=0;i<num.length;i++){
+//            new_arr_num[j++]=num[i];
+//            new_arr_num[j++]=num[i];
+//        }
+//        System.out.println(Arrays.toString(new_arr_num));
     }
 }
