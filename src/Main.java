@@ -235,5 +235,42 @@ public class Main{
 //            System.out.println("The line has more than 3 letters");
 //        }
 
+        //14. Дан массив:
+        //int[][] arr = {
+        //	{1, 2, 3},
+        //	{4, 5, 6},
+        //	{7, 8, 9},
+        //};
+        //Выведите в консоль все элементы этого массива.
+
+//        int [][] arr = {
+//                {1,2,3},
+//                {4,5,6},
+//                {7,8,9}
+//        };
+//        int n = 3;
+//        for (int i=0;i<n;i++){
+//            for(int j=0;j<n;j++){
+//                System.out.print(arr[i][j]);
+//            }
+//            System.out.println();
+//        }
+
+        //15. Напишите программу, которая выведет в консоль следующую пирамидку:
+        //x
+        //xx
+        //xxx
+        //xxxx
+        //xxxxx
+//        int n = 5;
+//        int m=5;
+//        for(int i=0;i<n;i++){
+//            for(int j=0;j<m;j++){
+//                if(i>=j){
+//                    System.out.print("*");
+//                }
+//            }
+//            System.out.println();
+//        }
     }
 }
